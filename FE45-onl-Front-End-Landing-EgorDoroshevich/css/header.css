@@ -1,0 +1,13 @@
+.container{
+    margin-bottom: 68px;
+}
+.portfolio-head-text{
+    margin: auto;
+    text-align: center;
+}
+.porfolio-head-squad{
+    width: 64px;
+    height: 2px;
+    border: 1px solid #E72424;
+    margin: 0px auto 34px;
+}
