@@ -1,0 +1,101 @@
+.price{
+    padding: 80px 15px 59px 15px;
+    background-color: #F5F5F5;
+    margin: 0px 15px;
+    }
+.container{
+    margin: 0px auto 62px;
+    text-align: center;
+}
+.price-head{
+    font-family: 'Raleway';
+    font-weight: 400px;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 34px;
+}
+.price-head-squad{
+    width: 64px;
+    height: 2px;
+    border: 1px solid #E72424;
+    margin: 0px auto 34px;
+}
+.price-head-text{
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 19px;
+    text-align:center;
+    margin: auto; 
+}
+.price-head-text p{
+    font-size: 14px;
+    line-height: 19px;
+    color:#8d8484;
+}
+.price-main{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    flex-wrap: wrap;
+  }
+.price-box{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.price-card{
+   max-width: 340px;
+   margin: 15px 15px;
+   display:flex;
+   flex-direction: column;
+}
+.price-card ul{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    align-content: space-between;
+}
+.price-card-tarif{
+    height: 30px;
+    width: 340px;
+    background-color:#333030;;
+    font-family: 'Open Sans';
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color:#fff;
+}
+.price-card-coast{
+    margin: 3px 0px;
+    height: 60px;
+    width: 340px;
+    background-color:#333030;
+    font-family: 'Raleway';
+    font-size: 35px;
+    line-height: 41px;
+    text-align: center;
+    color:#fff;
+}
+.price-card-info{
+    height: 30px;
+    width: 340px;
+    background-color:#333030;
+    text-align: center;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    line-height: 19px;
+    color:rgb(216, 213, 213);
+}
+.price-card-space{
+    margin: 3px 0px;
+    width: 340px;
+    line-height: 40px;
+    background-color:#fff;
+    font-size: small;
+    color:#8d8484;
+    display: flex;
+    justify-content: center;
+}

@@ -2,8 +2,12 @@
     margin-bottom: 68px;
 }
 .portfolio-head-text{
+    font-weight: 400px;
+    font-size: 14px;
+    color:#928f8f;
     margin: auto;
     text-align: center;
+
 }
 .porfolio-head-squad{
     width: 64px;

@@ -1,10 +1,10 @@
 @import url("./cdn.css");
 @import url("./header.css");
 @import url("./portfolio.css");
-
+@import url("./price.css");
 
 *{
-    max-width: 1170px;
+    max-width: 1900px;
     margin: 0 15px;
     padding: 0;
     list-style: none;
@@ -13,9 +13,11 @@
      
 }
 .tittle{
-    font-size: 40px;
+    font-family:"Raleway", sans-serif;
+    font-size: 36px;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 34px;
+    
 }
 
