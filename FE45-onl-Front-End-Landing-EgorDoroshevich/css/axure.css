@@ -1,0 +1,54 @@
+.axure{
+  max-width: 1170px;
+  padding: 80px 0;
+  position: relative;
+  background: url("../img/background.png") no-repeat center;
+  background-size: cover;
+}
+.axure::after{
+    content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+}
+.axure-head{
+    margin-bottom: 68px;
+    color:#fff;
+
+}
+.axure-head-text{
+    font-weight: 400px;
+    font-size: 14px;
+    color:#fff;
+    text-align: center;
+}
+.axure-link a{ 
+    font-size: 15px;
+    font-family: "Open Sans";
+    color:#fff;
+}
+.axure-link{
+    width: 135px;
+    height: 42px; 
+    display: inline-block;  
+    cursor: pointer; 
+    transition: 0.3s;
+    border:1px solid #fff;
+    text-align: center;
+    padding: 11px;
+    margin:0 520px;
+}
+.axure-link:hover { 
+    box-shadow: -5px -5px 5px 0 #3d1a03;
+    background-color: transparent;
+    border: 1px solid #3d1a03;
+    background-color: transparent; 
+    color:#ec7322;
+}
+  .axure-link:hover a{
+    color:#ec7322;
+  }

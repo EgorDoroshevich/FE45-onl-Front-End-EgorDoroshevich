@@ -1,0 +1,93 @@
+.customer-wrap{
+    max-width: 1170px;
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    }
+.customer{
+    max-width: 1170px;
+    padding: 80px 0;
+    }
+.customer-head{
+    margin-bottom: 68px;
+} 
+.customer-head-text{
+    font-weight: 400px;
+    font-size: 14px;
+    color:#928f8f;
+    text-align: center;
+}
+.customer-card{
+    width: 350px;
+    margin: 0 15px;
+}
+.comment{
+   width: 350px;
+   border: 2px  solid #E2E2E2;
+   border-radius:7px;
+   background: #E2E2E2;
+   padding: 7px 22px;
+   margin-bottom: 22px;
+   position: relative;
+}
+.comment::before{
+content:"";
+position: absolute;
+display: inline-block;
+left:30px;
+top:100%;
+border:15px solid transparent;
+border-top:15px solid #E2E2E2;
+}
+.comment p{
+    width: 253px;
+    font-family:'Open sans';
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+.comment-main{
+    width: 350px;
+    display:flex    ;
+    justify-content: space-around;
+   }
+.comment-img{
+    width: 70px;
+    height: 70px;
+    border: 1px solid #E2E2E2;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+   
+    }
+.commentn-img img{
+    max-width: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+}
+.comment-name{
+    width: 200px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.jery{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    margin-left: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.prof{
+    margin-left: 79px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+
+}

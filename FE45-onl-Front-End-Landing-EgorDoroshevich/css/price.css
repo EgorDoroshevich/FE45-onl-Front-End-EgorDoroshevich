@@ -1,75 +1,53 @@
 .price{
-    padding: 80px 15px 59px 15px;
+    max-width: 1170px;
+    padding: 80px 0;
     background-color: #F5F5F5;
-    margin: 0px 15px;
+   
     }
-.container{
-    margin: 0px auto 62px;
-    text-align: center;
-}
+
 .price-head{
-    font-family: 'Raleway';
-    font-weight: 400px;
-    font-size: 36px;
-    line-height: 42px;
-    text-align: center;
-    text-transform: uppercase;
-    margin-bottom: 34px;
-}
-.price-head-squad{
-    width: 64px;
-    height: 2px;
-    border: 1px solid #E72424;
-    margin: 0px auto 34px;
-}
+    margin-bottom: 68px;
+  }
 .price-head-text{
     font-weight: 400px;
     font-size: 14px;
-    line-height: 19px;
-    text-align:center;
-    margin: auto; 
-}
+    color:#928f8f;
+    text-align: center;
+    }
+
 .price-head-text p{
     font-size: 14px;
     line-height: 19px;
     color:#8d8484;
 }
+
 .price-main{
-    display: flex;
-    justify-content: space-between;
-    align-items:center;
-    flex-wrap: wrap;
-  }
-.price-box{
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    max-width: 1170px;
+     display:flex;
+     flex-wrap: wrap;
 }
-.price-card{
-   max-width: 340px;
-   margin: 15px 15px;
-   display:flex;
-   flex-direction: column;
-}
-.price-card ul{
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    align-content: space-between;
+.pricing{
+    width:340px;
+    margin: 0 15px;
 }
 .price-card-tarif{
+    display: flex;
+    justify-content: center;
     height: 30px;
     width: 340px;
-    background-color:#333030;;
+    padding:2px 0;
+    background-color:#333030;
     font-family: 'Open Sans';
     font-size: 20px;
     line-height: 27px;
     text-align: center;
-    color:#fff;
+    color:rgb(250, 246, 246);
 }
 .price-card-coast{
-    margin: 3px 0px;
+    display: flex;
+    justify-content: center;
+    margin: 2px 0px;
+    padding: 10px 0;
     height: 60px;
     width: 340px;
     background-color:#333030;
@@ -78,10 +56,13 @@
     line-height: 41px;
     text-align: center;
     color:#fff;
-}
+    }
 .price-card-info{
+    display: flex;
+    justify-content: center;
     height: 30px;
     width: 340px;
+    padding: 5px 0;
     background-color:#333030;
     text-align: center;
     font-family: 'Open Sans';
@@ -90,7 +71,7 @@
     color:rgb(216, 213, 213);
 }
 .price-card-space{
-    margin: 3px 0px;
+    margin: 2px 0px;
     width: 340px;
     line-height: 40px;
     background-color:#fff;

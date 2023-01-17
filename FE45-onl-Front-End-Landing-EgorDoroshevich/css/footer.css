@@ -1,0 +1,38 @@
+.container-foot{
+    width: 1170px;
+    background: #000000;
+    line-height: 100px;
+    display: block;
+    align-items:center;
+    justify-content: center;
+  }
+.foot-link{
+    width: 50px; 
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+
+    }
+.foot-link::after{
+    content:"2015 Axure Themes";
+    width: 90px;
+    font-size: 10px;
+    font-weight: 100;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    
+  }
+.foot-link-img i{
+    width: 40px;
+    font-size:23px; 
+    display:inline-block;
+    align-items:center;
+    justify-content: center;
+    color:#fff;
+    border-radius: 50%;
+   }
