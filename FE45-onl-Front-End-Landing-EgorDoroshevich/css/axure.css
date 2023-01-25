@@ -27,20 +27,19 @@
     text-align: center;
 }
 .axure-link a{ 
+    line-height: 42px;
     font-size: 15px;
     font-family: "Open Sans";
     color:#fff;
 }
 .axure-link{
     width: 135px;
-    height: 42px; 
-    display: inline-block;  
+    display:block;  
     cursor: pointer; 
     transition: 0.3s;
     border:1px solid #fff;
     text-align: center;
-    padding: 11px;
-    margin:0 520px;
+    margin:auto;
 }
 .axure-link:hover { 
     box-shadow: -5px -5px 5px 0 #3d1a03;

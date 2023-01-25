@@ -18,11 +18,13 @@
 .foot-link::after{
     content:"2015 Axure Themes";
     width: 90px;
+    height: 20px;
+
     font-size: 10px;
     font-weight: 100;
     color:#fff;
     position: absolute;
-    top:50%;
+    top:30%;
     left: 50%;
     transform: translate(-50%, -20%);
     

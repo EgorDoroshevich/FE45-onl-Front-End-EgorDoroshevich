@@ -4,7 +4,6 @@
     background-color: #F5F5F5;
    
     }
-
 .price-head{
     margin-bottom: 68px;
   }
@@ -14,13 +13,11 @@
     color:#928f8f;
     text-align: center;
     }
-
 .price-head-text p{
     font-size: 14px;
     line-height: 19px;
     color:#8d8484;
 }
-
 .price-main{
     max-width: 1170px;
      display:flex;
@@ -28,7 +25,7 @@
 }
 .pricing{
     width:340px;
-    margin: 0 15px;
+    margin:  15px;
 }
 .price-card-tarif{
     display: flex;

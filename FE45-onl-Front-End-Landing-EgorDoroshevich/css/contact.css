@@ -8,27 +8,40 @@
     color:#928f8f;
     text-align: center;
 }
-.main-contact{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.contact-head{
+    margin-bottom: 68px;
 }
 .container-main{
     max-width: 1170px;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
- }
+  }
+.main-contact{
+    width:1170px;
+    display: flex;
+    justify-content: space-between;
+    
+    position: relative;
+}
 .contact-info{
-     margin:0 15px;
+    width: 35%;
+    margin: 0 15px 20px 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}
+    }
 .label-name{
     width: 400px;
     color:#BDBDBD;
 }
+.btn-contact{
+   width: 20%;
+    margin: 0 15px;
+    position: absolute;
+    top: 100%;
+    left: 44%;
+   
+ }
 .input-contact{
     width: 100%;
     border:none;
@@ -36,11 +49,11 @@
     border-bottom: 1px solid #BDBDBD;
 }
 .contact-massage{
+    width: 35%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     color:#BDBDBD;
-    margin: 0 15px;
+    margin: 0 15px 20px 15px;
    }
 .contact-massage textarea{
     width: 400px;
@@ -50,18 +63,14 @@
 }
 .send-btn{
     width: 135px;
-    height: 42px;
+    line-height: 42px;
     display: inline-block;
     border: 1px solid #EC7979;
     background-color: #EC7979;
     color:#FFF;
     text-align: center;
-    padding: 10px 0;
     transition: 0.3s;
-    align-self: center ;
-    margin-top: 28px;
-    transition: 0.3s;
-  }
+}
   .send-btn:hover{
     background-color:#FFF;
     color:#EC7979;

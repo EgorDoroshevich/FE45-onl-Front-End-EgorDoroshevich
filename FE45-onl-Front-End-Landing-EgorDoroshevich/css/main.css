@@ -22,7 +22,6 @@
 }
 .modern-wrap{
     width: 544px;
-    margin: 0 15px;
     z-index: 10;
 }
 .modern-wrap span{
@@ -73,7 +72,6 @@
 .try{
     width: 370px;
     height:370px;
-    margin: 0 15px;
     background:#FFF;
     border-radius: 5px;
     z-index:10;
@@ -127,11 +125,12 @@
     border: 1px solid rgb(138, 37, 37);
     border-radius:0 0 5px 5px;
     text-align: center;
-    padding: 10px 0;
+    line-height: 40px;
     background-color: #EC7979;
     color:#FFF;
     margin-top: 11px;
-     transition: 0.3s;
+    position: relative;
+    transition: 0.3s;
    }
 .btn-form:hover{
     background-color:#FFF;
