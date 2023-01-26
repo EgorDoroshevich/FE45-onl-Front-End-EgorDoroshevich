@@ -1,13 +1,15 @@
 .header{
    max-width: 1170px;
+   padding: 5px 0;
     background-color: #000000;
     position:sticky;
     top:0px;
     z-index: 999;
 }
-.container-head{
+.head-contant{
     max-width: 1170px;
     height: 70px;   
+    margin: 0 -15px;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;

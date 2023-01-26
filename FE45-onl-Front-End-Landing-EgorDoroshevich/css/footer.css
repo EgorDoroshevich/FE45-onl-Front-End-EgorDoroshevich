@@ -1,16 +1,20 @@
-.container-foot{
-    width: 1170px;
-    background: #000000;
+.footer{
+  max-width: 1170px;
+  padding: 15px 0;
+  background: #000000;
+}
+.foot-content{
+    max-width: 1170px;
     line-height: 100px;
     display: block;
     align-items:center;
     justify-content: center;
   }
 .foot-link{
-    width: 50px; 
+    width: 400px; 
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items:center;
     position: relative;
 
@@ -18,8 +22,7 @@
 .foot-link::after{
     content:"2015 Axure Themes";
     width: 90px;
-    height: 20px;
-
+    height: 2px;
     font-size: 10px;
     font-weight: 100;
     color:#fff;

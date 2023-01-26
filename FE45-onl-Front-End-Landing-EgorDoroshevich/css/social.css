@@ -1,7 +1,11 @@
-.container-social{
-    max-width: 1170px; 
-    padding: 20px 0;
+.social{
+    padding: 15px 0;
     background: #F8EFEF;
+}
+
+.social-content{
+    max-width: 1170px; 
+    margin: 0 -15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -32,6 +36,7 @@
     }
 .networks{
     width: 684px;
+    margin: 0 15px;
     display:flex;
     justify-content: space-around;
     align-items:center;

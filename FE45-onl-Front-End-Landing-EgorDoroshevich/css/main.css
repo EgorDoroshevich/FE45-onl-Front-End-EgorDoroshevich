@@ -1,14 +1,18 @@
-.container-modern{
-    max-width: 1170px;
-    padding: 80px 0;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.modern{
+    padding: 80px 0;   
     background:url("../img/background-1\ 1.png") no-repeat center;
+    position: relative;
+}
+.modern-head{
+    max-width: 1170px;
+    margin: 0 -15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     background-size: cover;
     position: relative;
 }
-.container-modern::after{
+.modern::after{
     content:"";
     position: absolute;
     top: 0px;
@@ -22,6 +26,7 @@
 }
 .modern-wrap{
     width: 544px;
+    margin: 0 15px;
     z-index: 10;
 }
 .modern-wrap span{
@@ -72,14 +77,16 @@
 .try{
     width: 370px;
     height:370px;
+    margin: 0 15px;
     background:#FFF;
     border-radius: 5px;
     z-index:10;
+    overflow: hidden;
   }
 
 .form-content {
     width: 370px;
-    padding: 0 59px;
+    padding: 20px 59px;
     margin: auto;
     display:block;
     justify-content:space-around;
@@ -113,6 +120,9 @@
     justify-content: space-between;
     margin-bottom: 40px;
     }
+.form-content-item:nth-last-child(1){
+    margin-bottom: 0px;
+    }
 .form-input{
     width: 100%;
     border:none;
@@ -123,7 +133,6 @@
     width: 370px;
     display: inline-block;
     border: 1px solid rgb(138, 37, 37);
-    border-radius:0 0 5px 5px;
     text-align: center;
     line-height: 40px;
     background-color: #EC7979;

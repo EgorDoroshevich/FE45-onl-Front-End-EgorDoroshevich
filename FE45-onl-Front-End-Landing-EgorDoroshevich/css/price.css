@@ -20,12 +20,14 @@
 }
 .price-main{
     max-width: 1170px;
+    margin: 0 -15px;
      display:flex;
+     justify-content: space-between;
      flex-wrap: wrap;
 }
 .pricing{
     width:340px;
-    margin:  15px;
+    margin: 0 15px;
 }
 .price-card-tarif{
     display: flex;
