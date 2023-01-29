@@ -9,6 +9,7 @@
 @import url("./main.css");
 @import url("./contact.css");
 @import url("./tabs.css");
+
 *{
     max-width: 1170px;
     margin: 0;
@@ -16,7 +17,7 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box; 
-     
+   
 }
 .tittle::after {
     content:"";

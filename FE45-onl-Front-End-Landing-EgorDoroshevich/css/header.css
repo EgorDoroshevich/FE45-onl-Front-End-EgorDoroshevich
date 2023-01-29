@@ -1,5 +1,5 @@
 .header{
-   max-width: 1170px;
+/*    max-width: 1170px; */
    padding: 5px 0;
     background-color: #000000;
     position:sticky;
@@ -44,7 +44,7 @@
     justify-content: space-between;
     align-items:center;
     }
-    .axit-info-feaut{
+.axit-info-feaut{
         width: 80px;
         height: 40px;
         display: inline-block;  
@@ -59,7 +59,7 @@
     }
     .axit-info-feaut:hover{
         border-bottom:2px solid rgb(223, 207, 207);
-        /* box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
+      /*   box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
     }
     .axit-info-revi{
         width: 80px;
@@ -76,7 +76,7 @@
     }
     .axit-info-revi:hover{
         border-bottom:2px solid rgb(223, 207, 207);
-        box-shadow:0px -10px 22px 0  rgb(121, 67, 67);
+       /*  box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
     }
     .axit-info-pric{
         width: 80px;
@@ -93,7 +93,7 @@
     }
     .axit-info-pric:hover{
         border-bottom:2px solid rgb(223, 207, 207);
-        box-shadow:0px -10px 22px 0  rgb(121, 67, 67);
+    /*     box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
     }
 .axit-info-about{
         width: 80px;
@@ -110,7 +110,7 @@
 }
 .axit-info-about:hover{
     border-bottom:2px solid rgb(223, 207, 207);
-    box-shadow:0px -10px 22px 0  rgb(121, 67, 67);
+    /* box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
 }
 .axit-info-cont{
     width: 80px;
@@ -127,5 +127,10 @@
 }
 .axit-info-cont:hover{
     border-bottom:2px solid rgb(223, 207, 207);
-    box-shadow:0px -10px 22px 0  rgb(121, 67, 67);
+    /* box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
+}
+@media(max-width:680px){
+   .head-contact{
+    display: block;
+   }    
 }
