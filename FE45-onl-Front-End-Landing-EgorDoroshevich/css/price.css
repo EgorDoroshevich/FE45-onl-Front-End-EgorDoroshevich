@@ -29,19 +29,19 @@
     width:340px;
     margin: 0 15px;
 }
-@media(max-width:1024px){
+    @media(max-width:1024px){
     .pricing{
         width:300px;
         margin: 0 auto 20px;
     }
 }
-@media(max-width:960px){
+    @media(max-width:960px){
     .pricing{
         width:280px;
         margin: 0 auto 20px;
     }
 }
-@media(max-width:780px){
+    @media(max-width:780px){
     .pricing{
         width:260px;
         margin: 0 auto 20px;
@@ -60,7 +60,7 @@
     text-align: center;
     color:rgb(250, 246, 246);
 }
-@media(max-width:1024px){
+    @media(max-width:1024px){
     .price-card-tarif{
         display: flex;
         justify-content: center;
@@ -75,7 +75,7 @@
         color:rgb(250, 246, 246);
     }
 }
-@media(max-width:960px){
+    @media(max-width:960px){
     .price-card-tarif{
         display: flex;
         justify-content: center;
@@ -90,7 +90,7 @@
         color:rgb(250, 246, 246);
     }
 }
-@media(max-width:780px){
+    @media(max-width:780px){
     .price-card-tarif{
         display: flex;
         justify-content: center;
@@ -119,7 +119,6 @@
     text-align: center;
     color:#fff;
     }
-    
     @media(max-width:1024px){
         .price-card-coast{
             display: flex;
@@ -178,7 +177,7 @@
     line-height: 19px;
     color:rgb(216, 213, 213);
 }
-@media(max-width:1024px){
+    @media(max-width:1024px){
     .price-card-info{
         display: flex;
         justify-content: center;
@@ -193,7 +192,7 @@
         color:rgb(250, 246, 246);
     }
 }
-@media(max-width:960px){
+    @media(max-width:960px){
     .price-card-info{
         display: flex;
         justify-content: center;
@@ -208,7 +207,7 @@
         color:rgb(250, 246, 246);
     }
 }
-@media(max-width:780px){
+    @media(max-width:780px){
     .price-card-info{
         display: flex;
         justify-content: center;
@@ -223,8 +222,6 @@
         color:rgb(250, 246, 246);
     }
 }
-
-
 .price-card-space{
     margin: 2px 0px;
     width: 340px;
@@ -235,7 +232,7 @@
     display: flex;
     justify-content: center;
 }
-@media(max-width:1024px){
+    @media(max-width:1024px){
     .price-card-space{
         margin: 2px auto;
         width: 300px;
@@ -247,7 +244,7 @@
         justify-content: center;
     }
 }
-@media(max-width:960px){
+    @media(max-width:960px){
     .price-card-space{
         margin: 2px auto;
         width: 280px;
@@ -259,7 +256,7 @@
         justify-content: center;
     }
 }
-@media(max-width:780px){
+    @media(max-width:780px){
     .price-card-space{
         margin: 2px auto;
         width: 260px;

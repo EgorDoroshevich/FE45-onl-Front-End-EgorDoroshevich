@@ -1,6 +1,5 @@
 .header{
-/*    max-width: 1170px; */
-   padding: 5px 0;
+    padding: 5px 0;
     background-color: #000000;
     position:sticky;
     top:0px;
@@ -22,10 +21,55 @@
     line-height: 35px;
     width: 68px;
     height: 31px;
-       position: relative;
+    position: relative;
     top:0px;
     left: 0px;
     padding: 20px;
+    }
+    @media(max-width:1024px){
+        .axit{
+            color:#fff;
+            font-family: 'Raleway';
+            font-weight: 400;
+            font-size: 27px;
+            line-height: 32px;
+            width: 68px;
+            height: 31px;
+            position: relative;
+            top:0px;
+            left: 0px;
+            padding: 20px;
+            }
+    }
+    @media(max-width:960px){
+        .axit{
+            color:#fff;
+            font-family: 'Raleway';
+            font-weight: 400;
+            font-size: 25px;
+            line-height: 30px;
+            width: 68px;
+            height: 31px;
+            position: relative;
+            top:0px;
+            left: 0px;
+            padding: 20px;
+            }
+    }
+    @media(max-width:780px){
+        .axit{
+            color:#fff;
+            font-family: 'Raleway';
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 33px;
+            width: 68px;
+            height: 31px;
+            position: relative;
+            top:0px;
+            left: 0px;
+            padding: 20px;
+            } 
     }
 .axit::before{
     content:"IT";
@@ -36,6 +80,42 @@
     line-height: 35px;
     position: absolute;
     margin-left: 40px;
+}
+   @media(max-width:1024px){
+    .axit::before{
+        content:"IT";
+        color:#EC7979;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 27px;
+        line-height: 32px;
+        position: absolute;
+        margin-left: 40px;
+    }
+}
+   @media(max-width:960px){
+    .axit::before{
+        content:"IT";
+        color:#EC7979;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 30px;
+        position: absolute;
+        margin-left: 35px;
+    }
+}
+   @media(max-width:780px){
+    .axit::before{
+        content:"IT";
+        color:#EC7979;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 33px;
+        position: absolute;
+        margin-left: 40px;
+    }
 }
 .axit-info{
     width: 500px;
@@ -59,7 +139,7 @@
     }
     .axit-info-feaut:hover{
         border-bottom:2px solid rgb(223, 207, 207);
-      /*   box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
+   
     }
     .axit-info-revi{
         width: 80px;
@@ -76,7 +156,7 @@
     }
     .axit-info-revi:hover{
         border-bottom:2px solid rgb(223, 207, 207);
-       /*  box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
+      
     }
     .axit-info-pric{
         width: 80px;
@@ -93,7 +173,7 @@
     }
     .axit-info-pric:hover{
         border-bottom:2px solid rgb(223, 207, 207);
-    /*     box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
+ 
     }
 .axit-info-about{
         width: 80px;
@@ -110,7 +190,7 @@
 }
 .axit-info-about:hover{
     border-bottom:2px solid rgb(223, 207, 207);
-    /* box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
+
 }
 .axit-info-cont{
     width: 80px;
@@ -127,10 +207,4 @@
 }
 .axit-info-cont:hover{
     border-bottom:2px solid rgb(223, 207, 207);
-    /* box-shadow:0px -10px 22px 0  rgb(121, 67, 67); */
-}
-@media(max-width:680px){
-   .head-contact{
-    display: block;
-   }    
-}
+   }
