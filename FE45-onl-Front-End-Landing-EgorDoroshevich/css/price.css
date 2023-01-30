@@ -29,6 +29,24 @@
     width:340px;
     margin: 0 15px;
 }
+@media(max-width:1024px){
+    .pricing{
+        width:300px;
+        margin: 0 auto 20px;
+    }
+}
+@media(max-width:960px){
+    .pricing{
+        width:280px;
+        margin: 0 auto 20px;
+    }
+}
+@media(max-width:780px){
+    .pricing{
+        width:260px;
+        margin: 0 auto 20px;
+    }
+}
 .price-card-tarif{
     display: flex;
     justify-content: center;
@@ -41,6 +59,51 @@
     line-height: 27px;
     text-align: center;
     color:rgb(250, 246, 246);
+}
+@media(max-width:1024px){
+    .price-card-tarif{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 300px;
+        padding:2px 0;
+        background-color:#333030;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color:rgb(250, 246, 246);
+    }
+}
+@media(max-width:960px){
+    .price-card-tarif{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 280px;
+        padding:2px 0;
+        background-color:#333030;
+        font-family: 'Open Sans';
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+        color:rgb(250, 246, 246);
+    }
+}
+@media(max-width:780px){
+    .price-card-tarif{
+        display: flex;
+        justify-content: center;
+        height: 28px;
+        width: 260px;
+        padding:2px 0;
+        background-color:#333030;
+        font-family: 'Open Sans';
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+        color:rgb(250, 246, 246);
+    }
 }
 .price-card-coast{
     display: flex;
@@ -56,6 +119,52 @@
     text-align: center;
     color:#fff;
     }
+    
+    @media(max-width:1024px){
+        .price-card-coast{
+            display: flex;
+            justify-content: center;
+            height: 30px;
+            width: 300px;
+            padding:2px 0;
+            background-color:#333030;
+            font-family: 'Open Sans';
+            font-size: 18px;
+            line-height: 25px;
+            text-align: center;
+            color:rgb(250, 246, 246);
+        }
+    }
+    @media(max-width:960px){
+        .price-card-coast{
+            display: flex;
+            justify-content: center;
+            height: 30px;
+            width: 280px;
+            padding:2px 0;
+            background-color:#333030;
+            font-family: 'Open Sans';
+            font-size: 17px;
+            line-height: 23px;
+            text-align: center;
+            color:rgb(250, 246, 246);
+        }
+    }
+    @media(max-width:780px){
+        .price-card-coast{
+            display: flex;
+            justify-content: center;
+            height: 28px;
+            width: 260px;
+            padding:2px 0;
+            background-color:#333030;
+            font-family: 'Open Sans';
+            font-size: 17px;
+            line-height: 23px;
+            text-align: center;
+            color:rgb(250, 246, 246);
+        }
+    }
 .price-card-info{
     display: flex;
     justify-content: center;
@@ -69,6 +178,53 @@
     line-height: 19px;
     color:rgb(216, 213, 213);
 }
+@media(max-width:1024px){
+    .price-card-info{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 300px;
+        padding:2px 0;
+        background-color:#333030;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        line-height: 25px;
+        text-align: center;
+        color:rgb(250, 246, 246);
+    }
+}
+@media(max-width:960px){
+    .price-card-info{
+        display: flex;
+        justify-content: center;
+        height: 30px;
+        width: 280px;
+        padding:2px 0;
+        background-color:#333030;
+        font-family: 'Open Sans';
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+        color:rgb(250, 246, 246);
+    }
+}
+@media(max-width:780px){
+    .price-card-info{
+        display: flex;
+        justify-content: center;
+        height: 28px;
+        width: 260px;
+        padding:2px 0;
+        background-color:#333030;
+        font-family: 'Open Sans';
+        font-size: 17px;
+        line-height: 23px;
+        text-align: center;
+        color:rgb(250, 246, 246);
+    }
+}
+
+
 .price-card-space{
     margin: 2px 0px;
     width: 340px;
@@ -78,4 +234,40 @@
     color:#8d8484;
     display: flex;
     justify-content: center;
+}
+@media(max-width:1024px){
+    .price-card-space{
+        margin: 2px auto;
+        width: 300px;
+        line-height: 40px;
+        background-color:#fff;
+        font-size: small;
+        color:#8d8484;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:960px){
+    .price-card-space{
+        margin: 2px auto;
+        width: 280px;
+        line-height: 38px;
+        background-color:#fff;
+        font-size: small;
+        color:#8d8484;
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:780px){
+    .price-card-space{
+        margin: 2px auto;
+        width: 260px;
+        line-height: 36px;
+        background-color:#fff;
+        font-size: small;
+        color:#8d8484;
+        display: flex;
+        justify-content: center;
+    }
 }

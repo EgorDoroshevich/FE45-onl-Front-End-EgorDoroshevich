@@ -6,11 +6,26 @@
     display:flex;
     justify-content: space-between;
  }
+ @media(max-width:780px){
+    .tabs-content{
+        display:block;
+        justify-content: space-between;
+     }
+ }
 .tabs-btn{
     display: inline-block;
     justify-content: space-between;
     align-items:center;
     margin:0 15px;
+}
+@media(max-width:780px){
+    .tabs-btn{
+       max-width:310px;
+        display: block;
+        margin:0 auto;
+       align-items:center;
+       justify-content: center;
+    }
 }
 .tab__btn{
     width: 110px;
@@ -22,6 +37,45 @@
     background-color: #000000;
     color:#fff;
     transition: 0.4s;
+    }
+    @media(max-width:1024px){
+        .tab__btn{
+            width: 100px;
+            height:100px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            border:1px solid #000000;
+            border-radius:10px;
+            background-color: #000000;
+            color:#fff;
+            transition: 0.4s;
+            }
+    }
+    @media(max-width:960px){
+        .tab__btn{
+            width: 90px;
+            height:90px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            border:1px solid #000000;
+            border-radius:10px;
+            background-color: #000000;
+            color:#fff;
+            transition: 0.4s;
+            }
+    }
+    @media(max-width:780px){
+        .tab__btn{
+            width: 100px;
+            height:100px;
+            margin:0 auto 10px;
+            text-transform: uppercase;
+            border:1px solid #000000;
+            border-radius:5px;
+            background-color: #000000;
+            color:#fff;
+            transition: 0.4s;
+            }
     }
 .tab__btn:hover{
     background-color: #EC7979;
@@ -40,6 +94,39 @@
     text-transform: uppercase;
     margin-bottom: 58px;
 }
+@media(max-width:1024px){
+    .tab__head{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 44px;
+    }
+}
+@media(max-width:960px){
+    .tab__head{
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:780px){
+    .tab__head{
+        font-family: 'Open Sans';
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 26px;
+        text-align: center;
+        text-transform: uppercase;
+        margin:20px auto 40px;
+    }
+}
 .tab__tittle{
     margin-bottom: 20px;
 }
@@ -49,15 +136,77 @@
     font-size: 14px;
     line-height: 19px;
 }
+@media(max-width:1024px){
+    .tab__tittle p{
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+@media(max-width:960px){
+    .tab__tittle p{
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+@media(max-width:780px){
+    .tab__tittle p{
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
 .tab__massage{
     margin-bottom: 70px;
 }
+@media(max-width:1024px){
+    .tab__massage{
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:960px){
+    .tab__massage{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:780px){
+    .tab__massage{
+        margin-bottom: 50px;
+    }
+}
 .tab__massage p{
     font-family: 'Open Sans';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
+}
+@media(max-width:1024px){
+    .tab__massage p{
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+@media(max-width:960px){
+    .tab__massage p{
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 17px;
+    }
+}
+@media(max-width:780px){
+    .tab__massage p{
+        font-family: 'Open Sans';
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
 .tabs-link{
 width: 135px;
@@ -65,6 +214,16 @@ line-height: 42px;
 text-align: center;
 background-color: #EC7979;
 color: #FFFFFF;
+}
+@media(max-width:780px){
+    .tabs-link{
+        width: 135px;
+        line-height: 42px;
+        text-align: center;
+        background-color: #EC7979;
+        color: #FFFFFF;
+        margin:0 auto 20px;
+        }
 }
 .tabs-link a{
     background-color: #EC7979;
@@ -76,4 +235,11 @@ color: #FFFFFF;
 }
 .tabs-img{
     margin: 0 15px;
+}
+@media(max-width:780px){
+    .tabs-img{
+        max-width: 320px;
+        display: block;
+        margin: 0 auto;
+    }
 }
